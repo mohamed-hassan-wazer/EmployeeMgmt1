@@ -31,5 +31,15 @@ namespace EmployeeMgmt1
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
