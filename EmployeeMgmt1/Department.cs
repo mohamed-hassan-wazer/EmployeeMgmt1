@@ -41,5 +41,13 @@ namespace EmployeeMgmt1
         {
 
         }
+        private void ListerDepartments()
+        {
+
+        }
+        private void AddBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
