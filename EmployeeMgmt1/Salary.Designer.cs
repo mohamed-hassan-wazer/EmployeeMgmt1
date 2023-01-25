@@ -42,12 +42,12 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -187,14 +187,6 @@
             this.label7.TabIndex = 24;
             this.label7.Text = "Date of birth";
             // 
-            // textBox4
-            // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(52, 206);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(304, 30);
-            this.textBox4.TabIndex = 23;
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -248,12 +240,25 @@
             this.panel1.Size = new System.Drawing.Size(1388, 110);
             this.panel1.TabIndex = 20;
             // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "ICT",
+            "MECHA",
+            "ENERGY"});
+            this.comboBox3.Location = new System.Drawing.Point(52, 206);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(304, 33);
+            this.comboBox3.TabIndex = 38;
+            // 
             // Salary
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1388, 628);
+            this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dateTimePicker2);
@@ -267,7 +272,6 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
@@ -301,11 +305,11 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ComboBox comboBox3;
     }
 }
