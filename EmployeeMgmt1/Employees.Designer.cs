@@ -198,6 +198,7 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.Teal;
             this.panel2.Location = new System.Drawing.Point(913, 250);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(265, 144);
