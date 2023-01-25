@@ -338,14 +338,14 @@
             this.gunaDataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             this.gunaDataGridView1.EnableHeadersVisualStyles = false;
             this.gunaDataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.gunaDataGridView1.Location = new System.Drawing.Point(504, 239);
+            this.gunaDataGridView1.Location = new System.Drawing.Point(550, 206);
             this.gunaDataGridView1.Name = "gunaDataGridView1";
             this.gunaDataGridView1.RowHeadersVisible = false;
             this.gunaDataGridView1.RowHeadersWidth = 51;
             this.gunaDataGridView1.RowTemplate.Height = 24;
             this.gunaDataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.gunaDataGridView1.Size = new System.Drawing.Size(448, 324);
-            this.gunaDataGridView1.TabIndex = 57;
+            this.gunaDataGridView1.Size = new System.Drawing.Size(390, 317);
+            this.gunaDataGridView1.TabIndex = 55;
             this.gunaDataGridView1.Theme = Guna.UI.WinForms.GunaDataGridViewPresetThemes.Guna;
             this.gunaDataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.gunaDataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
