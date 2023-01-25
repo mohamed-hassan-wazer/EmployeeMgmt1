@@ -241,15 +241,16 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Teal;
+            this.button2.BackColor = System.Drawing.Color.Turquoise;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.ForeColor = System.Drawing.Color.Black;
             this.button2.Location = new System.Drawing.Point(239, 547);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(117, 35);
             this.button2.TabIndex = 19;
             this.button2.Text = "Update";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Employees
             // 
