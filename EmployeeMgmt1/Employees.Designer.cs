@@ -43,6 +43,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -195,12 +196,20 @@
             this.textBox2.Size = new System.Drawing.Size(369, 30);
             this.textBox2.TabIndex = 11;
             // 
+            // panel2
+            // 
+            this.panel2.Location = new System.Drawing.Point(913, 250);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(265, 144);
+            this.panel2.TabIndex = 12;
+            // 
             // Employees
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1388, 702);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox3);
@@ -244,5 +253,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Panel panel2;
     }
 }
