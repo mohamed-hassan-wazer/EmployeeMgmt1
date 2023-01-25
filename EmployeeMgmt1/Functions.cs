@@ -36,6 +36,7 @@ namespace EmployeeMgmt1
             {
                 Con.Open();
             }
+            Cmd.CommandText = Query;
         }
     }
 }
