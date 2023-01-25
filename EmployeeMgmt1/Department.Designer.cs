@@ -185,9 +185,9 @@
             this.label5.ForeColor = System.Drawing.Color.Teal;
             this.label5.Location = new System.Drawing.Point(714, 128);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(107, 25);
+            this.label5.Size = new System.Drawing.Size(134, 25);
             this.label5.TabIndex = 42;
-            this.label5.Text = "Employee";
+            this.label5.Text = "Departments";
             // 
             // pictureBox3
             // 
