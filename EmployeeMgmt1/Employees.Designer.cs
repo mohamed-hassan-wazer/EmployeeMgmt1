@@ -199,9 +199,10 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Teal;
-            this.panel2.Location = new System.Drawing.Point(913, 250);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 584);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(265, 144);
+            this.panel2.Size = new System.Drawing.Size(1388, 29);
             this.panel2.TabIndex = 12;
             // 
             // Employees
@@ -209,7 +210,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1388, 702);
+            this.ClientSize = new System.Drawing.Size(1388, 613);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox5);
@@ -229,7 +230,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Name = "Employees";
-            this.Text = "Employees";
+            this.Text = " ";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
