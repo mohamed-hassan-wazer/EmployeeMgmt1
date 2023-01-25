@@ -55,10 +55,10 @@ namespace EmployeeMgmt1
         {
 
         }
-        catch (Exception)
+        catch (Exception Ex)
         {
 
-            throw;
+            MessageBox.Show(Ex.Message);
         }
         }
     }
