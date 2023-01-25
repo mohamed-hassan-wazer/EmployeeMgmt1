@@ -16,8 +16,8 @@ namespace EmployeeMgmt1
         private SqlDataAdapter sda;
         private String ConStr
         public Functions() 
-        { 
-            
+        {
+            ConStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\ENG-Mohamed Hassan\Documents\EmpDb.mdf"";Integrated Security=True;Connect Timeout=30";
         }
     }
 }
