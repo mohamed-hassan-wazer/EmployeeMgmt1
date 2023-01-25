@@ -233,7 +233,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(117, 35);
             this.button1.TabIndex = 18;
-            this.button1.Text = "login";
+            this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // Employees
@@ -266,6 +266,7 @@
             this.Name = "Employees";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " ";
+            this.Load += new System.EventHandler(this.Employees_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
