@@ -62,6 +62,7 @@ namespace EmployeeMgmt1
                 string Dep = DepNameTb.Text;
                 string Query = "insert into DepartmentTb1 values('{0}')";
                 Query = string.Format(DepNameTb.Text);
+                Con.SetData(Query);
 
             }
         }
