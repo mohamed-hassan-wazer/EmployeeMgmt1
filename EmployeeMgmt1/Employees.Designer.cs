@@ -94,9 +94,9 @@
             this.label5.ForeColor = System.Drawing.Color.Teal;
             this.label5.Location = new System.Drawing.Point(57, 286);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(166, 25);
+            this.label5.Size = new System.Drawing.Size(224, 25);
             this.label5.TabIndex = 10;
-            this.label5.Text = "Employee name";
+            this.label5.Text = "Employee Department";
             // 
             // label6
             // 
@@ -126,9 +126,9 @@
             this.label7.ForeColor = System.Drawing.Color.Teal;
             this.label7.Location = new System.Drawing.Point(57, 347);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(166, 25);
+            this.label7.Size = new System.Drawing.Size(129, 25);
             this.label7.TabIndex = 8;
-            this.label7.Text = "Employee name";
+            this.label7.Text = "Date of birth";
             // 
             // textBox1
             // 
