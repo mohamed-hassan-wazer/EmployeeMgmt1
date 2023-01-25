@@ -34,9 +34,10 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Teal;
-            this.panel1.Location = new System.Drawing.Point(530, 24);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(292, 110);
+            this.panel1.Size = new System.Drawing.Size(1388, 110);
             this.panel1.TabIndex = 0;
             // 
             // Employees
