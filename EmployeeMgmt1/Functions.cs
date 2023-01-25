@@ -19,6 +19,8 @@ namespace EmployeeMgmt1
         {
             ConStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\ENG-Mohamed Hassan\Documents\EmpDb.mdf"";Integrated Security=True;Connect Timeout=30";
             Con = new SqlConnection(ConStr);
+            Cmd = new SqlCommand();
+
         }
     }
 }
