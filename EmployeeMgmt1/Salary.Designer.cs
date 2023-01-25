@@ -139,9 +139,9 @@
             this.label5.ForeColor = System.Drawing.Color.Teal;
             this.label5.Location = new System.Drawing.Point(47, 300);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(224, 25);
+            this.label5.Size = new System.Drawing.Size(74, 25);
             this.label5.TabIndex = 28;
-            this.label5.Text = "Employee Department";
+            this.label5.Text = "Period";
             // 
             // label8
             // 
