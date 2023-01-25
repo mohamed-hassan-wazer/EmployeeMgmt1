@@ -60,9 +60,9 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(499, 131);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(369, 25);
+            this.label2.Size = new System.Drawing.Size(165, 25);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Employee mangement system version 10";
+            this.label2.Text = "Mange Employee";
             // 
             // Employees
             // 
