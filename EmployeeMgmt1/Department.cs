@@ -43,7 +43,7 @@ namespace EmployeeMgmt1
         }
         private void ListerDepartments()
         {
-
+            String Query = "Select * from DepartmentTb1";
         }
         private void AddBtn_Click(object sender, EventArgs e)
         {
