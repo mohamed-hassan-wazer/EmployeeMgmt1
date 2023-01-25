@@ -11,10 +11,12 @@ using System.Windows.Forms;
 namespace EmployeeMgmt1
 {
     public partial class Department : Form
-    {
+    
+        Functions Con;
         public Department()
         {
             InitializeComponent();
+            Con = new Functions();
         }
 
         private void Department_Load(object sender, EventArgs e)
@@ -44,6 +46,7 @@ namespace EmployeeMgmt1
         private void ListerDepartments()
         {
             String Query = "Select * from DepartmentTb1";
+            DepList.DataSource = Con.GetData(Query);
         }
         private void AddBtn_Click(object sender, EventArgs e)
         {
