@@ -161,9 +161,9 @@
             this.label8.ForeColor = System.Drawing.Color.Teal;
             this.label8.Location = new System.Drawing.Point(47, 239);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(184, 25);
+            this.label8.Size = new System.Drawing.Size(154, 25);
             this.label8.TabIndex = 26;
-            this.label8.Text = "Employee Gander";
+            this.label8.Text = "Days Attended";
             // 
             // label4
             // 
