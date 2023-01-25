@@ -26,6 +26,7 @@ namespace EmployeeMgmt1
         {
             dt = new DataTable();
             sda new SqlDataAdapter(Query, ConStr);
+            sda.Fill(dt);
         }
     }
 }
