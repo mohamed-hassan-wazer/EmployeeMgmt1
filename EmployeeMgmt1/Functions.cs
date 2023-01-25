@@ -29,5 +29,9 @@ namespace EmployeeMgmt1
             sda.Fill(dt);
             return dt;
         }
+        public int SetData(String Query) 
+        {
+            
+        }
     }
 }
