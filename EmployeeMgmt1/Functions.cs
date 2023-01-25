@@ -14,6 +14,7 @@ namespace EmployeeMgmt1
         private SqlCommand Cmd;
         private DataTable dt;
         private SqlDataAdapter sda;
+        private String ConStr
         public Functions() 
         { 
             
