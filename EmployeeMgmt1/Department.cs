@@ -53,7 +53,17 @@ namespace EmployeeMgmt1
         {
         try
         {
+            if(DepNameTb.text == "")
+            {
+                MessageBox.Show("missing data!!!");
+            }
+            else
+            {
+                string Dep = DepNameTb.Text;
+                string Query = "insert into DepartmentTb1 values('{0}')";
+                Query = string.Format(DepNameTb.Text);
 
+            }
         }
         catch (Exception Ex)
         {
