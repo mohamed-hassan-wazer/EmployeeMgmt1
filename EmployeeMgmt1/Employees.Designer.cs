@@ -173,9 +173,9 @@
             this.label3.ForeColor = System.Drawing.Color.Teal;
             this.label3.Location = new System.Drawing.Point(57, 408);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(166, 25);
+            this.label3.Size = new System.Drawing.Size(94, 25);
             this.label3.TabIndex = 8;
-            this.label3.Text = "Employee name";
+            this.label3.Text = "join date";
             // 
             // label4
             // 
