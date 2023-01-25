@@ -17,7 +17,7 @@ namespace EmployeeMgmt1
         {
             InitializeComponent();
             Con = new Functions();
-            ListerDepartments();
+            ShowDepartments();
         }
 
         private void Department_Load(object sender, EventArgs e)
@@ -44,7 +44,7 @@ namespace EmployeeMgmt1
         {
 
         }
-        private void ListerDepartments()
+        private void ShowDepartments()
         {
             String Query = "Select * from DepartmentTb1";
             DepList.DataSource = Con.GetData(Query);
