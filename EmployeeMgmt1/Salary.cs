@@ -34,6 +34,7 @@ namespace EmployeeMgmt1
         {
             string Query = "Select EmpSal from EmployeeTb1 where Empid = {0}";
             Query = string.Format(Query,EmpCb.SelectedValue.ToString());
+            DSal= Convert.ToInt32(Con.GetData(Query).Columns["EmpSal"].ToString());
             EmpCb.DisplayMember = Con.GetData(Query).Columns["EmpName"].ToString();
             EmpCb.ValueMember = Con.GetData(Query).Columns["Empid"].ToString();
             EmpCb.DataSource = Con.GetData(Query);
