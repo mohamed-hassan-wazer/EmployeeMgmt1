@@ -60,6 +60,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.EmployeeList = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -384,7 +385,7 @@
             this.EmployeeList.RowHeadersVisible = false;
             this.EmployeeList.RowHeadersWidth = 51;
             this.EmployeeList.RowTemplate.Height = 24;
-            this.EmployeeList.Size = new System.Drawing.Size(492, 359);
+            this.EmployeeList.Size = new System.Drawing.Size(492, 335);
             this.EmployeeList.TabIndex = 55;
             this.EmployeeList.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.EmployeeList.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -408,12 +409,23 @@
             this.EmployeeList.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.EmployeeList.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.IndianRed;
+            this.button1.Location = new System.Drawing.Point(597, 547);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(116, 35);
+            this.button1.TabIndex = 56;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // Employees
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1388, 628);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.EmployeeList);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.pictureBox5);
@@ -492,5 +504,6 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.PictureBox pictureBox2;
         private Guna.UI2.WinForms.Guna2DataGridView EmployeeList;
+        private System.Windows.Forms.Button button1;
     }
 }
