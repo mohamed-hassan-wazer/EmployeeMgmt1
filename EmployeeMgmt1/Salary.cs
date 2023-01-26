@@ -40,6 +40,16 @@ namespace EmployeeMgmt1
                 DSal = Convert.ToInt32(dr["EmpSal"].ToString());
             }
             //MessageBox.Show(DSal+ "");
+
+            if(DaysTb.Text == "Rs")
+            {
+                AmountTb.Text = "" +(d * DSal);
+            }
+            else
+            {
+                d = Convert.ToInt32(DaysTb.Text);
+                AmountTb.Text = "Rs" + (d * DSal);
+            }
         }
         private void ShowSalary()
         {

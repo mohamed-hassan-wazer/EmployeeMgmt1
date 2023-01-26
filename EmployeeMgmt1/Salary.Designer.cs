@@ -36,7 +36,6 @@ namespace EmployeeMgmt1
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.UpdateBtn = new System.Windows.Forms.Button();
             this.AddBtn = new System.Windows.Forms.Button();
-            this.SalaryTb = new System.Windows.Forms.DateTimePicker();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
@@ -58,6 +57,7 @@ namespace EmployeeMgmt1
             this.label10 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.SalaryList = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.AmountTb = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -91,15 +91,6 @@ namespace EmployeeMgmt1
             this.AddBtn.Text = "Add";
             this.AddBtn.UseVisualStyleBackColor = false;
             this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click);
-            // 
-            // SalaryTb
-            // 
-            this.SalaryTb.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText;
-            this.SalaryTb.CalendarTitleForeColor = System.Drawing.Color.AliceBlue;
-            this.SalaryTb.Location = new System.Drawing.Point(52, 389);
-            this.SalaryTb.Name = "SalaryTb";
-            this.SalaryTb.Size = new System.Drawing.Size(304, 30);
-            this.SalaryTb.TabIndex = 34;
             // 
             // pictureBox1
             // 
@@ -368,12 +359,21 @@ namespace EmployeeMgmt1
             this.SalaryList.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.SalaryList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.SalaryList_CellContentClick);
             // 
+            // AmountTb
+            // 
+            this.AmountTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AmountTb.Location = new System.Drawing.Point(52, 389);
+            this.AmountTb.Name = "AmountTb";
+            this.AmountTb.Size = new System.Drawing.Size(304, 30);
+            this.AmountTb.TabIndex = 56;
+            // 
             // Salary
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1388, 628);
+            this.Controls.Add(this.AmountTb);
             this.Controls.Add(this.SalaryList);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox5);
@@ -388,7 +388,6 @@ namespace EmployeeMgmt1
             this.Controls.Add(this.EmpCb);
             this.Controls.Add(this.UpdateBtn);
             this.Controls.Add(this.AddBtn);
-            this.Controls.Add(this.SalaryTb);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label5);
@@ -425,7 +424,6 @@ namespace EmployeeMgmt1
 
         private System.Windows.Forms.Button UpdateBtn;
         private System.Windows.Forms.Button AddBtn;
-        private System.Windows.Forms.DateTimePicker SalaryTb;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label5;
@@ -447,5 +445,6 @@ namespace EmployeeMgmt1
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.PictureBox pictureBox2;
         private Guna.UI2.WinForms.Guna2DataGridView SalaryList;
+        private System.Windows.Forms.TextBox AmountTb;
     }
 }
