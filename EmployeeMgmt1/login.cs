@@ -44,6 +44,10 @@ namespace EmployeeMgmt1
                 Obj.Show();
                 this.Hide();
             }
+            else
+            {
+                MessageBox.Show("wrong user name or password!!!")
+            }
         }
 
         private void label3_Click(object sender, EventArgs e)
