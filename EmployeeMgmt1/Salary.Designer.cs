@@ -208,6 +208,7 @@ namespace EmployeeMgmt1
             this.EmpCb.Size = new System.Drawing.Size(304, 33);
             this.EmpCb.TabIndex = 38;
             this.EmpCb.SelectedIndexChanged += new System.EventHandler(this.EmpCb_SelectedIndexChanged);
+            this.EmpCb.SelectionChangeCommitted += new System.EventHandler(this.EmpCb_SelectionChangeCommitted);
             // 
             // DaysTb
             // 
