@@ -135,6 +135,7 @@
             this.ResetLbl.Size = new System.Drawing.Size(62, 27);
             this.ResetLbl.TabIndex = 8;
             this.ResetLbl.Text = "reset";
+            this.ResetLbl.Click += new System.EventHandler(this.ResetLbl_Click);
             // 
             // login
             // 
