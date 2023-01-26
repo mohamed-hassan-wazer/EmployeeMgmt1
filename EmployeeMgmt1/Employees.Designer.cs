@@ -48,7 +48,7 @@
             this.GenCb = new System.Windows.Forms.ComboBox();
             this.DepCb = new System.Windows.Forms.ComboBox();
             this.DOBTb = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.JDate = new System.Windows.Forms.DateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
@@ -233,12 +233,12 @@
             this.DOBTb.Size = new System.Drawing.Size(304, 30);
             this.DOBTb.TabIndex = 16;
             // 
-            // dateTimePicker2
+            // JDate
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(32, 450);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(304, 30);
-            this.dateTimePicker2.TabIndex = 17;
+            this.JDate.Location = new System.Drawing.Point(32, 450);
+            this.JDate.Name = "JDate";
+            this.JDate.Size = new System.Drawing.Size(304, 30);
+            this.JDate.TabIndex = 17;
             // 
             // button1
             // 
@@ -421,7 +421,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.JDate);
             this.Controls.Add(this.DOBTb);
             this.Controls.Add(this.DepCb);
             this.Controls.Add(this.GenCb);
@@ -476,7 +476,7 @@
         private System.Windows.Forms.ComboBox GenCb;
         private System.Windows.Forms.ComboBox DepCb;
         private System.Windows.Forms.DateTimePicker DOBTb;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker JDate;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label9;
