@@ -33,7 +33,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.AddBtn = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -77,17 +77,17 @@
             this.button2.Text = "Update";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // AddBtn
             // 
-            this.button1.BackColor = System.Drawing.Color.Teal;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(52, 547);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(117, 35);
-            this.button1.TabIndex = 36;
-            this.button1.Text = "Add";
-            this.button1.UseVisualStyleBackColor = false;
+            this.AddBtn.BackColor = System.Drawing.Color.Teal;
+            this.AddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddBtn.ForeColor = System.Drawing.Color.White;
+            this.AddBtn.Location = new System.Drawing.Point(52, 547);
+            this.AddBtn.Name = "AddBtn";
+            this.AddBtn.Size = new System.Drawing.Size(117, 35);
+            this.AddBtn.TabIndex = 36;
+            this.AddBtn.Text = "Add";
+            this.AddBtn.UseVisualStyleBackColor = false;
             // 
             // dateTimePicker1
             // 
@@ -381,7 +381,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
@@ -413,7 +413,7 @@
         #endregion
 
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button AddBtn;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
