@@ -119,5 +119,10 @@ namespace EmployeeMgmt1
             obj.Show();
             this.Hide();
         }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
