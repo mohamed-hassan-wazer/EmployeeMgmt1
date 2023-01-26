@@ -62,8 +62,15 @@ namespace EmployeeMgmt1
         {
             try
             {
-                Period = PeriodTb.Value.Date.Month.ToString() + "-" + PeriodTb.Value.Date.Year.ToString();
-                int Amount = DSal * Convert.ToInt32(DaysTb.Text);
+                if (EmpCb.SelectedIndex == -1 || DaysTb.Text == "" || PeriodTb.Text == "")
+                {
+                    MessageBox.Show("Missing Data!!!");
+                }
+                else
+                {
+                    Period = PeriodTb.Value.Date.Month.ToString() + "-" + PeriodTb.Value.Date.Year.ToString();
+                    int Amount = DSal * Convert.ToInt32(DaysTb.Text);
+                }
             }
             catch(Exception Ex) 
             {
