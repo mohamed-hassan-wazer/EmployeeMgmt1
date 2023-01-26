@@ -34,7 +34,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.UpdateBtn = new System.Windows.Forms.Button();
             this.AddBtn = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.SalaryTb = new System.Windows.Forms.DateTimePicker();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
@@ -89,14 +89,14 @@
             this.AddBtn.Text = "Add";
             this.AddBtn.UseVisualStyleBackColor = false;
             // 
-            // dateTimePicker1
+            // SalaryTb
             // 
-            this.dateTimePicker1.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText;
-            this.dateTimePicker1.CalendarTitleForeColor = System.Drawing.Color.AliceBlue;
-            this.dateTimePicker1.Location = new System.Drawing.Point(52, 389);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(304, 30);
-            this.dateTimePicker1.TabIndex = 34;
+            this.SalaryTb.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText;
+            this.SalaryTb.CalendarTitleForeColor = System.Drawing.Color.AliceBlue;
+            this.SalaryTb.Location = new System.Drawing.Point(52, 389);
+            this.SalaryTb.Name = "SalaryTb";
+            this.SalaryTb.Size = new System.Drawing.Size(304, 30);
+            this.SalaryTb.TabIndex = 34;
             // 
             // pictureBox1
             // 
@@ -382,7 +382,7 @@
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.UpdateBtn);
             this.Controls.Add(this.AddBtn);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.SalaryTb);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label5);
@@ -414,7 +414,7 @@
 
         private System.Windows.Forms.Button UpdateBtn;
         private System.Windows.Forms.Button AddBtn;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker SalaryTb;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label5;
