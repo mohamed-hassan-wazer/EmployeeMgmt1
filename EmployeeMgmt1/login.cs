@@ -34,7 +34,16 @@ namespace EmployeeMgmt1
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            if(UNameTb.Text == "" || PasswordTb.Text == "")
+            {
+                MessageBox.Show("Missing Data!!!")
+            }
+            else if(UNameTb.Text == "Admin" && PasswordTb.Text == "Password")
+            {
+                Employees Obj= new Employees();
+                Obj.Show();
+                this.Hide();
+            }
         }
 
         private void label3_Click(object sender, EventArgs e)
