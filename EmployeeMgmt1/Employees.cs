@@ -175,6 +175,7 @@ namespace EmployeeMgmt1
             DepCb.SelectedValue = EmployeeList.SelectedRows[0].Cells[3].Value.ToString();
             DOBTb.Text = EmployeeList.SelectedRows[0].Cells[4].Value.ToString();
             JDateTb.Text = EmployeeList.SelectedRows[0].Cells[5].Value.ToString();
+            DailySalTb.Text = EmployeeList.SelectedRows[0].Cells[6].Value.ToString();
             if (EmpNameTb.Text == "")
             {
                 key = 0;
