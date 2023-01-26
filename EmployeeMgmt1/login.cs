@@ -36,7 +36,7 @@ namespace EmployeeMgmt1
         {
             if(UNameTb.Text == "" || PasswordTb.Text == "")
             {
-                MessageBox.Show("Missing Data!!!")
+                MessageBox.Show("Missing Data!!!");
             }
             else if(UNameTb.Text == "Admin" && PasswordTb.Text == "Password")
             {
@@ -46,7 +46,9 @@ namespace EmployeeMgmt1
             }
             else
             {
-                MessageBox.Show("wrong user name or password!!!")
+                MessageBox.Show("wrong user name or password!!!");
+                UNameTb.Text = "";
+                PasswordTb.Text = "";
             }
         }
 
