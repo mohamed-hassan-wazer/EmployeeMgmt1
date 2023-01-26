@@ -60,7 +60,7 @@ namespace EmployeeMgmt1
 
         private void AddBtn_Click(object sender, EventArgs e)
         {
-
+            Period = PeriodTb.Value.Date.Month.ToString() + "-" + PeriodTb.Value.Date.Year.ToString();
         }
 
         private void EmpCb_SelectionChangeCommitted(object sender, EventArgs e)
