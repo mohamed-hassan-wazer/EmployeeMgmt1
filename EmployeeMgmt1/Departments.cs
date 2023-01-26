@@ -17,9 +17,9 @@ namespace EmployeeMgmt1
         {
             InitializeComponent();
             Con = new Functions();
-            listerDepartments();
+            ShowDepartments();
         }
-        private void listerDepartments() 
+        private void ShowDepartments() 
         {
             string Query = "Select * from DepartmentTb1";
             DepList.DataSource = Con.GetData(Query);
