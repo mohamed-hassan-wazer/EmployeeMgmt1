@@ -30,6 +30,7 @@ namespace EmployeeMgmt1
 
         }
         int DSal = 0;
+        string Period = "";
         private void GetSalary()
         {
             string Query = "Select EmpSal from EmployeeTb1 where Empid = {0}";
