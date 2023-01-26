@@ -27,7 +27,22 @@ namespace EmployeeMgmt1
 
         private void AddBtn_Click(object sender, EventArgs e)
         {
-
+            try 
+            { 
+                if(DepNameTb.Text == "")
+                {
+                    MessageBox.Show("missing data!!!");
+                }
+                else
+                {
+                    string Dep = DepNameTb.Text;
+                    string Query = "insert into DepartmentTb1 values('{0}')";
+                }
+            } 
+            catch(Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
         }
     }
 }
