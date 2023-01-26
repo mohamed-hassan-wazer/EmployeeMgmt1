@@ -91,6 +91,7 @@ namespace EmployeeMgmt1
                     ShowEmp();
                     MessageBox.Show("Emoloyee Updated!!!");
                     EmpNameTb.Text = "";
+                    DailySalTb.Text = "";
                 }
             }
             catch (Exception Ex)
