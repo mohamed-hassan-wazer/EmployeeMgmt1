@@ -45,6 +45,10 @@ namespace EmployeeMgmt1
             {
                 AmountTb.Text = "" +(d * DSal);
             }
+            else if(Convert.ToInt32(DaysTb.Text) > 31)
+            {
+                MessageBox.Show("Days can not be Greater than 31")
+            }
             else
             {
                 d = Convert.ToInt32(DaysTb.Text);
