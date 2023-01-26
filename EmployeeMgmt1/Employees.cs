@@ -124,7 +124,7 @@ namespace EmployeeMgmt1
                     string JDate = JDateTb.Value.ToString();
                     int Salary = Convert.ToInt32(DailySalTb.Text);
                     string Query = "Update EmployeeTb1 set EmpName = '{0}',EmpGep='{1}',EmpDep={2},EmpDOB='{3}',Empjdate='{4}',EmpSal={5} where Empid= {6}";
-                    Query = string.Format(Query, Name, Gender, Dep, DOB, JDate, Salary);
+                    Query = string.Format(Query, Name, Gender, Dep, DOB, JDate, Salary,key);
                     Con.SetData(Query);
                     ShowEmp();
                     MessageBox.Show("Emoloyee Updated!!!");
@@ -138,6 +138,11 @@ namespace EmployeeMgmt1
             {
                 MessageBox.Show(Ex.Message);
             }
+        }
+        int key = 0;
+        private void EmployeeList_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
