@@ -63,6 +63,7 @@ namespace EmployeeMgmt1
         private void GetDepartment()
         {
             string Query = "Select * from DepartmentTb1";
+            DepCb.DisplayMember = Con.GetData(Query).Columns["Depname"].ToString();
         }
         private void AddBtn_Click(object sender, EventArgs e)
         {
