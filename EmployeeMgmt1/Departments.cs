@@ -16,5 +16,10 @@ namespace EmployeeMgmt1
         {
             InitializeComponent();
         }
+
+        private void AddBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
