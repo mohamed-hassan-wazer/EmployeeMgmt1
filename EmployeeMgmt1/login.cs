@@ -45,6 +45,7 @@ namespace EmployeeMgmt1
         private void ResetLbl_Click(object sender, EventArgs e)
         {
             UNameTb.Text = "";
+            PasswordTb.Text = "";
         }
     }
 }
