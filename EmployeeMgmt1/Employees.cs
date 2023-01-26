@@ -83,15 +83,14 @@ namespace EmployeeMgmt1
                     string Gender = GenCb.SelectedItem.ToString();
                     string Dep = GenCb.SelectedValue.ToString();
                     string DOB = DOBTb.Value.ToString();
-                    string JDate = JDate.Value.ToString();
-                    string Name = EmpNameTb.Text;
-                    string Name = EmpNameTb.Text;
-                    string Query = "Update DepartmentTb1 set Depname = '{0}' where Depid = {1}";
-                    Query = string.Format(Query, DepNameTb.Text, key);
+                    string JDate = JDateTb.Value.ToString();
+                    int Salary = Convert.ToInt32(DailySalTb.Text);
+                    string Query = "insert into EmployeeTb1 values('{0}','{1}','{2}',{3}',{4}',{5}')";
+                    Query = string.Format(Query, Name,Gender,Dep,DOB,JDate,Salary);
                     Con.SetData(Query);
-                    ShowDepartments();
-                    MessageBox.Show("Department Updated!!!");
-                    DepNameTb.Text = "";
+                    ShowEmp();
+                    MessageBox.Show("Emoloyee Updated!!!");
+                    EmpNameTb.Text = "";
                 }
             }
             catch (Exception Ex)
