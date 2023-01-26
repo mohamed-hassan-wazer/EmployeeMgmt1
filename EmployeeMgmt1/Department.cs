@@ -10,17 +10,25 @@ using System.Windows.Forms;
 
 namespace EmployeeMgmt1
 {
-    public partial class Department : Form
-    
+    public partial class Departments : Form 
+
         Functions Con;
-        public Department()
+private void EditBtn_Click(object sender, EventArgs e)
+    {
+
+    }        public Departments()
         {
             InitializeComponent();
             Con = new Functions();
-            ShowDepartments();
+            ShowDepartment();
         }
 
-        private void Department_Load(object sender, EventArgs e)
+    void ShowDepartment()
+    {
+        throw new NotImplementedException();
+    }
+
+    private void Department_Load(object sender, EventArgs e)
         {
 
         }
@@ -53,26 +61,27 @@ namespace EmployeeMgmt1
         {
         try
         {
-            if(DepNameTb.text == "")
-            {
-                MessageBox.Show("missing data!!!");
-            }
-            else
-            {
+            if (DepNameTb.text == "")
+                {
+                    MessageBox.Show("missing data!!!");
+                }
+                else
+                {
+                
                 string Dep = DepNameTb.Text;
-                string Query = "insert into DepartmentTb1 values('{0}')";
-                Query = string.Format(DepNameTb.Text);
-                Con.SetData(Query);
-                ShowDepartments();
-                MessageBox.Show("Department Added!!!");
-                DepNameTb.Text = "";
-            }
+                    string Query = "insert into DepartmentTb1 values('{0}')";
+                    Query = string.Format(Query,DepNameTb.Text);
+                    Con.SetData(Query);
+                    ShowDepartments();
+                    MessageBox.Show("Department Added!!!");
+                    DepNameTb.Text = "";
+                 }
         }
-        catch (Exception Ex)
-        {
+                catch (Exception Ex)
+            {
 
-            MessageBox.Show(Ex.Message);
-        }
+              MessageBox.Show(Ex.Message);
+            }
         }
     }
 }
