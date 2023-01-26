@@ -50,7 +50,7 @@
             this.DOBTb = new System.Windows.Forms.DateTimePicker();
             this.JDate = new System.Windows.Forms.DateTimePicker();
             this.AddBtn = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.UpdateBtn = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -252,18 +252,18 @@
             this.AddBtn.Text = "Add";
             this.AddBtn.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // UpdateBtn
             // 
-            this.button2.BackColor = System.Drawing.Color.Turquoise;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(219, 547);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(117, 35);
-            this.button2.TabIndex = 19;
-            this.button2.Text = "Update";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.UpdateBtn.BackColor = System.Drawing.Color.Turquoise;
+            this.UpdateBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UpdateBtn.ForeColor = System.Drawing.Color.Black;
+            this.UpdateBtn.Location = new System.Drawing.Point(219, 547);
+            this.UpdateBtn.Name = "UpdateBtn";
+            this.UpdateBtn.Size = new System.Drawing.Size(117, 35);
+            this.UpdateBtn.TabIndex = 19;
+            this.UpdateBtn.Text = "Update";
+            this.UpdateBtn.UseVisualStyleBackColor = false;
+            this.UpdateBtn.Click += new System.EventHandler(this.button2_Click);
             // 
             // label9
             // 
@@ -419,7 +419,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.UpdateBtn);
             this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.JDate);
             this.Controls.Add(this.DOBTb);
@@ -478,7 +478,7 @@
         private System.Windows.Forms.DateTimePicker DOBTb;
         private System.Windows.Forms.DateTimePicker JDate;
         private System.Windows.Forms.Button AddBtn;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button UpdateBtn;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label label10;
