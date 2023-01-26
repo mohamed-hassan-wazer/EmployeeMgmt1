@@ -42,7 +42,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.DailySalTb = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.GenCb = new System.Windows.Forms.ComboBox();
@@ -176,13 +176,13 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Employee Daily Salary";
             // 
-            // textBox2
+            // DailySalTb
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(32, 511);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(304, 30);
-            this.textBox2.TabIndex = 11;
+            this.DailySalTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DailySalTb.Location = new System.Drawing.Point(32, 511);
+            this.DailySalTb.Name = "DailySalTb";
+            this.DailySalTb.Size = new System.Drawing.Size(304, 30);
+            this.DailySalTb.TabIndex = 11;
             // 
             // panel2
             // 
@@ -427,7 +427,7 @@
             this.Controls.Add(this.GenCb);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.DailySalTb);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label4);
@@ -470,7 +470,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox DailySalTb;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ComboBox GenCb;
