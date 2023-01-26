@@ -105,6 +105,7 @@ namespace EmployeeMgmt1
         {
             login Obj = new login();
             Obj.Show();
+            this.Hide();
         }
     }
 }
