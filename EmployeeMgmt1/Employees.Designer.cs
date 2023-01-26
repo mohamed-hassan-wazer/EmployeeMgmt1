@@ -47,7 +47,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.GenCb = new System.Windows.Forms.ComboBox();
             this.DepCb = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.DOBTb = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -224,14 +224,14 @@
             this.DepCb.Size = new System.Drawing.Size(304, 33);
             this.DepCb.TabIndex = 15;
             // 
-            // dateTimePicker1
+            // DOBTb
             // 
-            this.dateTimePicker1.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText;
-            this.dateTimePicker1.CalendarTitleForeColor = System.Drawing.Color.AliceBlue;
-            this.dateTimePicker1.Location = new System.Drawing.Point(32, 389);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(304, 30);
-            this.dateTimePicker1.TabIndex = 16;
+            this.DOBTb.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText;
+            this.DOBTb.CalendarTitleForeColor = System.Drawing.Color.AliceBlue;
+            this.DOBTb.Location = new System.Drawing.Point(32, 389);
+            this.DOBTb.Name = "DOBTb";
+            this.DOBTb.Size = new System.Drawing.Size(304, 30);
+            this.DOBTb.TabIndex = 16;
             // 
             // dateTimePicker2
             // 
@@ -422,7 +422,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dateTimePicker2);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.DOBTb);
             this.Controls.Add(this.DepCb);
             this.Controls.Add(this.GenCb);
             this.Controls.Add(this.pictureBox1);
@@ -475,7 +475,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ComboBox GenCb;
         private System.Windows.Forms.ComboBox DepCb;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker DOBTb;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
