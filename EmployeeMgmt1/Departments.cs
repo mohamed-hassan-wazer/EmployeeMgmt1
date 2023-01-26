@@ -16,6 +16,10 @@ namespace EmployeeMgmt1
         {
             InitializeComponent();
         }
+        private void listerDepartments() 
+        {
+            string Query = "Select * from DepartmentTb1";
+        }
 
         private void AddBtn_Click(object sender, EventArgs e)
         {
