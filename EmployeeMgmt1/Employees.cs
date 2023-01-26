@@ -83,6 +83,7 @@ namespace EmployeeMgmt1
                     string Gender = GenCb.SelectedItem.ToString();
                     string Dep = GenCb.SelectedValue.ToString();
                     string DOB = DOBTb.Value.ToString();
+                    string JDate = JDate.Value.ToString();
                     string Name = EmpNameTb.Text;
                     string Name = EmpNameTb.Text;
                     string Query = "Update DepartmentTb1 set Depname = '{0}' where Depid = {1}";
