@@ -122,7 +122,7 @@ namespace EmployeeMgmt1
 
         private void label10_Click(object sender, EventArgs e)
         {
-
+            Salary Obj = new Salary();
         }
     }
 }
