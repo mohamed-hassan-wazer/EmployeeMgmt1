@@ -100,5 +100,10 @@ namespace EmployeeMgmt1
         {
             GetSalary();
         }
+
+        private void LogoutLbl_Click(object sender, EventArgs e)
+        {
+            login Obj = new login();
+        }
     }
 }
