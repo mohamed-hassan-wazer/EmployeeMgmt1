@@ -49,5 +49,10 @@ namespace EmployeeMgmt1
                 MessageBox.Show(Ex.Message);
             }
         }
+        int key = 0;
+        private void DepList_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
