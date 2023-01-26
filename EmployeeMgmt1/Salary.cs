@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -28,6 +29,14 @@ namespace EmployeeMgmt1
             EmpCb.DataSource = Con.GetData(Query);
 
         }
+        private void GetSalary()
+        {
+            string Query = "Select EmpSal from EmployeeTb1";
+            EmpCb.DisplayMember = Con.GetData(Query).Columns["EmpName"].ToString();
+            EmpCb.ValueMember = Con.GetData(Query).Columns["Empid"].ToString();
+            EmpCb.DataSource = Con.GetData(Query);
+
+        }
         private void ShowSalary()
         {
             try
@@ -39,8 +48,13 @@ namespace EmployeeMgmt1
             {
                 throw;
             }
+        }
+        private void SalaryList_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
-            private void EmpCb_SelectedIndexChanged(object sender, EventArgs e)
+        }
+
+        private void AddBtn_Click(object sender, EventArgs e)
         {
 
         }
