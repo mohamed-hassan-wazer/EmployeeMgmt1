@@ -73,13 +73,18 @@ namespace EmployeeMgmt1
         {
             try
             {
-                if (DepNameTb.Text == "")
+                if (EmpNameTb.Text == "" || GenCb.SelectedIndex == -1 || DepCb.SelectedIndex == -1 || DailySalTb.Text == "")
                 {
                     MessageBox.Show("missing data!!!");
                 }
                 else
                 {
-                    string Dep = DepNameTb.Text;
+                    string Name = EmpNameTb.Text;
+                    string Gender = GenCb.SelectedItem.ToString();
+                    string Dep = GenCb.SelectedValue.ToString();
+                    string DOB = DOBTb.Value.ToString();
+                    string Name = EmpNameTb.Text;
+                    string Name = EmpNameTb.Text;
                     string Query = "Update DepartmentTb1 set Depname = '{0}' where Depid = {1}";
                     Query = string.Format(Query, DepNameTb.Text, key);
                     Con.SetData(Query);
