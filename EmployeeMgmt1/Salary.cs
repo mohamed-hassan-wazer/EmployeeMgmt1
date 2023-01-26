@@ -29,6 +29,7 @@ namespace EmployeeMgmt1
             EmpCb.DataSource = Con.GetData(Query);
 
         }
+        int DSal = 0;
         private void GetSalary()
         {
             string Query = "Select EmpSal from EmployeeTb1 where Empid = {0}";
