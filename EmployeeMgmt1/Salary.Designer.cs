@@ -46,7 +46,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.PeriodTb = new System.Windows.Forms.DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -213,14 +213,14 @@
             this.textBox1.Size = new System.Drawing.Size(304, 30);
             this.textBox1.TabIndex = 39;
             // 
-            // dateTimePicker3
+            // PeriodTb
             // 
-            this.dateTimePicker3.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText;
-            this.dateTimePicker3.CalendarTitleForeColor = System.Drawing.Color.AliceBlue;
-            this.dateTimePicker3.Location = new System.Drawing.Point(52, 328);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(304, 30);
-            this.dateTimePicker3.TabIndex = 40;
+            this.PeriodTb.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText;
+            this.PeriodTb.CalendarTitleForeColor = System.Drawing.Color.AliceBlue;
+            this.PeriodTb.Location = new System.Drawing.Point(52, 328);
+            this.PeriodTb.Name = "PeriodTb";
+            this.PeriodTb.Size = new System.Drawing.Size(304, 30);
+            this.PeriodTb.TabIndex = 40;
             // 
             // label3
             // 
@@ -377,7 +377,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.dateTimePicker3);
+            this.Controls.Add(this.PeriodTb);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.UpdateBtn);
@@ -426,7 +426,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker3;
+        private System.Windows.Forms.DateTimePicker PeriodTb;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label label4;
