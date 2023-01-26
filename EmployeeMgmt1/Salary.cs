@@ -17,7 +17,7 @@ namespace EmployeeMgmt1
         {
             InitializeComponent();
             Con = new Functions();
-            ShowEmp();
+            ShowSalary();
             GetDepartment();
         }
         private void ShowSalary()
