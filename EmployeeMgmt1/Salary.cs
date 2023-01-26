@@ -31,7 +31,7 @@ namespace EmployeeMgmt1
         }
         private void GetSalary()
         {
-            string Query = "Select EmpSal from EmployeeTb1";
+            string Query = "Select EmpSal from EmployeeTb1 where Empid = {0}";
             EmpCb.DisplayMember = Con.GetData(Query).Columns["EmpName"].ToString();
             EmpCb.ValueMember = Con.GetData(Query).Columns["Empid"].ToString();
             EmpCb.DataSource = Con.GetData(Query);
