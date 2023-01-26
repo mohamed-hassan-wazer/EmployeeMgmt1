@@ -126,5 +126,12 @@ namespace EmployeeMgmt1
             Obj.Show();
             this.Hide();
         }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            login Obj = new login();
+            Obj.Show();
+            this.Hide();
+        }
     }
 }

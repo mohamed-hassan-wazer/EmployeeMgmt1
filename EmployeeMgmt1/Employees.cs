@@ -192,5 +192,12 @@ namespace EmployeeMgmt1
                 key = Convert.ToInt32(EmployeeList.SelectedRows[0].Cells[0].Value.ToString());
             }
         }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            login Obj = new login();
+            Obj.Show();
+            this.Hide();
+        }
     }
 }
